@@ -1,0 +1,106 @@
+﻿@charset "utf-8";
+/***** CREATE IN A BETTER WAY - START *****/
+/*#lf-newreleases .side-nav > li > a:before,
+#lf-afierwmata .side-nav > li > a:before,
+#lf-promos .side-nav > li > a:before {
+    position: absolute;
+    left: 2px;
+    top: 12px;
+    width: 22px;
+    height: 22px;
+    background: url('images/general/spritescd.png') no-repeat -22px -68px;
+    background: url('https://css.redblue.de/MediaGR/skins/newcustom_v2_20141029/el/images/general/spritescd.png') no-repeat -22px -68px;
+	content: '>';
+    text-indent: -999em;
+}
+#lf-newreleases .side-nav > li > a:hover:before,
+#lf-afierwmata .side-nav > li > a:hover:before,
+#lf-promos .side-nav > li > a:hover:before {
+	background-position: -82px -128px;
+}
+#lf-newreleases .side-nav > li.active > a:before,
+#lf-afierwmata .side-nav > li.active > a:before,
+#lf-promos .side-nav > li.active > a:before {
+	background-position: -60px -128px;
+}*/
+/***** CREATE IN A BETTER WAY - END *****/
+
+/***** USED FOR A WHILE - START *****/
+
+/* runners - start */
+/*#header .left-meta-navigation>ul>li>a.se100ola_top_menu {
+	background: url('https://wizards.mediamarkt.gr/images/runners/header-100.png');
+	width: 180px;
+	height: 35px;
+	background-repeat: no-repeat;
+	background-size:100%;
+	padding: 0 !important;
+}
+#header .left-meta-navigation>ul>li>a.se100ola_top_menu:before {
+	display:none;
+}
+@media only screen and (max-width: 1199px) {
+	#header .left-meta-navigation>ul>li:last-child {
+		display: block;
+	}
+	#header .left-meta-navigation>ul>li a,
+	#header .left-meta-navigation>ul>li a.startsite,
+	#header .right-meta-navigation>ul>li>a {
+		padding-right: 5px !important;
+	}
+}
+@media only screen and (max-width: 954px) {
+	#header .left-meta-navigation>ul>li>a.se100ola_top_menu {
+        width:150px;
+	}
+}*/
+/* runners - end */
+
+/* Temporarily hide new categories from menu from 11 to 25 */
+/*#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li,
+#top-navigation>.top-navigation-items li.item:first-child + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li + li {
+	display:none;
+}*/
+
+/* min-height for second level bigger height */
+/*.responsive #header #top-navigation.menu-dropdown-variant .top-navigation-items li.item.cat_menu_sda .flyout-subnavigation>ul>li ul.dropdown-menu {
+	min-height:559px;
+}
+.responsive #header #top-navigation.menu-dropdown-variant .top-navigation-items li.item.cat_menu_music .flyout-subnavigation>ul>li ul.dropdown-menu {
+	min-height:329px;
+}*/
+
+/* medium and small screens */
+/*@media only screen and (max-width: 1199px) {
+	.responsive #header #top-navigation.menu-dropdown-variant .top-navigation-items li.item.cat_menu_sda .flyout-subnavigation>ul>li ul.dropdown-menu {
+		min-height:523px;
+	}
+	.responsive #header #top-navigation.menu-dropdown-variant .top-navigation-items li.item.cat_menu_music .flyout-subnavigation>ul>li ul.dropdown-menu {
+		min-height:371px;
+	}
+}*/
+
+/* Temporarily hide new categories from menu */
+#top-navigation.menu-dropdown-variant .cat_menu_hide {
+	display:none;
+}
+
+/* hide error 404 */
+body > h1,
+body > h1 + p {
+	display:none;
+}
+/***** USED FOR A WHILE - END *****/

@@ -1,0 +1,258 @@
+charset "utf-8";
+@font-face {
+    font-family:"mm-icons-updated";
+    src:url("");
+    src:url("MMIcons.eot#iefix") format("embedded-opentype"), 
+    url("MMIcons.woff2") format("woff2"), 
+    url("MMIcons.woff") format("woff"), 
+    url("MMIcons.ttf") format("truetype"), 
+    url("MMIcons.svg#svg") format("svg")
+}
+@font-face {
+    font-family:MM-iconfont;
+    src:url("");
+	src:url("MM-Iconfont-1.eot#iefix") format("embedded-opentype"),
+	url("MM-Iconfont.woff") format("woff"),
+	url("MM-Iconfont-1.ttf") format("truetype")
+}
+
+
+/*****************************/
+/********** DESKTOP **********/
+/*****************************/
+
+/* homepage contact block - start */
+.block-contact li a.help:before {
+	content:'\e62e';
+	/*content:'';*/
+}
+.block-contact li a.faq:before {
+	content:'\e62f';
+	/*content:'';*/
+}
+.block-contact li a.landline:before {
+	content:'\e61a';
+	/*content:'';*/
+}
+.block-contact li a.mobile:before {
+	/*content:'\e906';*/
+	left:-5px;
+	width:30px;
+	height:18px;
+	background:url("icon-mobile-v2.png") no-repeat left top;
+	background-size:70%;
+	content:'';
+}
+.block-contact li a.chat:before {
+	content:'\e617';
+	/*content:'';*/
+}
+.block-contact li a.email:before {
+	content:'\e619';
+	/*content:'';*/
+}
+/* homepage contact block - end */
+
+/* homepage info block - start */
+.block-info li a.bi-offers:before {
+	content:'\e62b';
+	/*content:'';*/
+}
+[class^=checkout-] .sticky-footer .checkout-shipping > span:before,
+[class^=checkout-] .static-footer .checkout-shipping > span:before,
+.block-info li a.bi-delivery:before {
+	content:'\e622';
+	/*content:'';*/
+}
+.block-info li a.bi-markets:before {
+	content:'\e621';
+	/*content:'';*/
+}
+.block-info li a.bi-payments:before {
+	content:'\e62a';
+	/*content:'';*/
+}
+/* homepage info block - end */
+
+
+/* orders history page - change layout */
+.my-account .orders-list>.order-info .side .collapse-icon:after {
+	content:'';
+}
+
+/* Checkout SDD fast track icon - menoumespiti changes */
+[class^=checkout-] .checkout-container #delivery form.delivery .tile._s_d_d___e_x_p_r_e_s_s .content-method h4:after {
+    font-family:"mm-icons";
+    content:"\e623";
+}
+[class^=checkout-] #delivery li.tile._p_i_c_k_u_p .content-method:after {
+    content: "\e622" !important;
+}
+
+/* multimedia PDP - main specs arrow */
+.MainTechSpecs p:before {
+	content:'\e603';
+}
+
+/* PDP & PL - options - wishlist icon */
+#product-details .options .to-wishlist a:before,
+.products-list>li footer ul li.to-wishlist a:before {
+	font-family:MM-iconfont;
+	content:'\2764';
+}
+
+/* PDP - usp teaser - tick icon */
+.usp-teaser ul li:before {
+	content:'\2714';
+}
+
+/* left menu arrows (newreleases,afierwmata,promos) */
+#lf-newreleases .side-nav > li > a:before,
+#lf-afierwmata .side-nav > li > a:before,
+#lf-promos .side-nav > li > a:before {
+	font-family:'mm-icons';
+	content:'\e603';
+}
+
+/* Availability Icons */
+.iconfont-store:before,
+.deliverytbl-section-pickup .deliverytbl-sub-heading th:before,
+.box.infobox.availability>ul>li.section-store-availability:before,
+.box.infobox.availability>ul>li.market-buy:before {
+	/*font-family:'mm-icons';*/
+	content:'';
+}
+
+/* pin-poi icon for physical stores in PDP and product-lists */
+.box.infobox.availability>ul>li.store-availability:before {
+	/*font-family:'mm-icons';*/
+    content:'';
+}
+
+/* orders history page - change layout - order title icon arrow  */
+.my-account .orders-list>.order-info .side .collapse-icon:after {
+	font-family:'mm-icons';
+	content:'';
+}
+
+/* Miele Brandshop */
+.side-nav.alphabet .aktiv .drop:before,
+.skin2014 .side-nav.alphabet .aktiv .drop:before {
+    font-family:mm-icons;
+    content:'\e604';
+}
+.side-nav.alphabet .drop:before,
+.skin2014 .side-nav.alphabet .drop:before {
+    font-family:mm-icons;
+    content:'\e603';
+}
+
+/*#top_viewed_prod_cat-recos .teaser.enhanced > nav > ul > li > a:before {
+	font-family:'mm-icons', MM-iconfont;
+	content:'\276f';
+}
+#top_viewed_prod_cat-recos .teaser.enhanced > nav > ul > li > a.active:before,
+#top_viewed_prod_cat-recos .teaser.enhanced > nav > ul > li > a.active:hover:before {
+	font-family:'mm-icons', MM-iconfont;
+	content:'\76';
+}*/
+
+/* New powerservice page - submenu arrow down */
+.powerservice .subMenu a > span:after{
+	font-family:'mm-icons', MM-iconfont;
+	content:'\76';
+}
+/* Category prudsys - arrow */
+[id^="top_viewed_prod_cat-recos"] .teaser.enhanced > nav ~ .teasers > li .prev:before,
+[id^="top_viewed_prod_cat-recos"] .teaser.enhanced > nav ~ .teasers > li .next:before {
+       font-family:'mm-icons', MM-iconfont;   		
+}
+[id^="top_viewed_prod_cat-recos"] .teaser.enhanced > nav ~ .teasers > li .prev:before {
+	content:'\e602';
+}
+[id^="top_viewed_prod_cat-recos"] .teaser.enhanced > nav ~ .teasers > li .next:before {
+    	content:'\e603';
+}
+/* Back Button like promos, afierwmata, new releases */
+#lf-back .side-nav > li > a:before {
+	font-family:'mm-icons', MM-iconfont;
+	content:'\e602';
+}
+
+/* back and forward double arrow */
+.go-back span:before,
+.go-forward span:after {
+	font-family:MM-iconfont;
+	content:'\bb';
+}
+
+
+/* LPs product grid header icons - start */
+/* swirl */
+#heroID-swirl + .fg-box .cms-products-grid > .header h2:before {
+	content:'\e628';
+}
+/* smartphone */
+#heroID-smart + .fg-box .cms-products-grid > .header h2:before {
+	content:'\e906';
+}
+/* gift */
+#giftID-gift + .fg-box .cms-products-grid > .header h2:before {
+	content:'\e905';
+}
+/* gaming controller */
+#gaming-controllerID + .fg-box .cms-products-grid > .header h2:before {
+	content:'\e90a';
+}
+.mna-follow-icon:before {
+	font-family:MM-iconfont;
+}
+.mna-follow-icon.mna-follow--type_facebook:before {
+	content:"\46";
+}
+.mna-follow-icon.mna-follow--type_twitter:before {
+	content:"\54";
+}
+.mna-follow-icon.mna-follow--type_youtube:before {
+	content:"\59";
+}
+.mna-follow-icon.mna-follow--type_foursquare:before {
+	content:"\66";
+}
+.mna-follow-icon.mna-follow--type_instagram:before {
+	content:"\49";
+}
+
+/* LPs product grid header icons - end */
+
+
+/****************************/
+/********** MOBILE **********/
+/****************************/
+
+/* Tab arrow for MOB LP page Intel optane */
+.wrapper-features .features input[type=radio] + label::after,
+.categories > li .img:after {
+	font-family:MM-iconfont;
+	content:'\76';
+}
+
+/* product grid header icons - start */
+/* swirl */
+#heroID-swirl + .gridbox > h2:before {
+	content:'\e628';
+}
+/* smartphone */
+#heroID-smart + .gridbox > h2:before {
+	content:'\e906';
+}
+/* gift */
+#giftID-gift + .gridbox > h2:before {
+	content:'\e905';
+}
+/* gaming controller */
+#gaming-controllerID + .gridbox > h2:before {
+	content:'\e90a';
+}
+/* LPs product grid header icons - end */
+

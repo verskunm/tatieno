@@ -1,0 +1,147 @@
+﻿@charset "utf-8";
+@font-face {
+    font-family: "mm-icons-updated";
+    src: url("");
+    src: url("MMIcons.eot#iefix") format("embedded-opentype"), 
+    url("MMIcons.woff2") format("woff2"), 
+    url("MMIcons.woff") format("woff"), 
+    url("MMIcons.ttf") format("truetype"), 
+    url("MMIcons.svg#svg") format("svg")
+}
+@font-face {
+    font-family:MM-iconfont;
+    src: url("");
+	src: url("MM-Iconfont-1.eot#iefix") format("embedded-opentype"),
+	url("MM-Iconfont.woff") format("woff"),
+	url("MM-Iconfont-1.ttf") format("truetype")
+}
+
+/* homepage contact block - start */
+.block-contact li a.help:before {
+	content:'\e62e';
+	/*content:'';*/
+}
+.block-contact li a.faq:before {
+	content:'\e62f';
+	/*content:'';*/
+}
+.block-contact li a.landline:before {
+	content:'\e61a';
+	/*content:'';*/
+}
+.block-contact li a.mobile:before {
+	/*content:'\e906';*/
+	left:-5px;
+	width:30px;
+	height:18px;
+	background:url("icon-mobile-v2.png") no-repeat left top;
+	background-size:70%;
+	content:'';
+}
+.block-contact li a.chat:before {
+	content:'\e617';
+	/*content:'';*/
+}
+.block-contact li a.email:before {
+	content:'\e619';
+	/*content:'';*/
+}
+/* homepage contact block - end */
+
+/* homepage info block - start */
+.block-info li a.bi-offers:before {
+	content:'\e62b';
+	/*content:'';*/
+}
+.block-info li a.bi-delivery:before {
+	content:'\e622';
+	/*content:'';*/
+}
+.block-info li a.bi-markets:before {
+	content:'\e621';
+	/*content:'';*/
+}
+.block-info li a.bi-payments:before {
+	content:'\e62a';
+	/*content:'';*/
+}
+/* homepage info block - end */
+
+
+/* orders history page - change layout */
+.my-account .orders-list>.order-info .side .collapse-icon:after {
+	content:'';
+}
+
+/* multimedia PDP - main specs arrow */
+.MainTechSpecs p:before {
+	content:'\e603';
+}
+
+/* Tab arrow for LP page Intel optane */
+.wrapper-features .features input[type=radio] + label::after {
+	content: '\76';
+}
+
+/* PDP & PL - options - wishlist icon */
+#product-details .options .to-wishlist a:before,
+.products-list>li footer ul li.to-wishlist a:before {
+	font-family:MM-iconfont;
+	content:"\2764";
+}
+
+/* PDP - usp teaser - tick icon */
+.usp-teaser ul li:before {
+	content:"\2714";
+}
+
+/* left menu arrows (newreleases,afierwmata,promos) */
+#lf-newreleases .side-nav > li > a:before,
+#lf-afierwmata .side-nav > li > a:before,
+#lf-promos .side-nav > li > a:before {
+	font-family: "mm-icons";
+	content: "\e603";
+}
+
+/* Availability Icons */
+.iconfont-store:before,
+.deliverytbl-section-pickup .deliverytbl-sub-heading th:before,
+.box.infobox.availability>ul>li.section-store-availability:before,
+.box.infobox.availability>ul>li.market-buy:before {
+	/*font-family:'mm-icons';*/
+	content:"";
+}
+
+/* pin-poi icon for physical stores in PDP and product-lists */
+.box.infobox.availability>ul>li.store-availability:before {
+	/*font-family:'mm-icons';*/
+    content:'';
+}
+
+/* orders history page - change layout - order title icon arrow  */
+.my-account .orders-list>.order-info .side .collapse-icon:after {
+	font-family:'mm-icons';
+	content:'';
+}
+
+/* Miele Brandshop */
+.side-nav.alphabet .aktiv .drop:before,
+.skin2014 .side-nav.alphabet .aktiv .drop:before {
+    font-family: mm-icons;
+    content: "\e604";
+}
+.side-nav.alphabet .drop:before,
+.skin2014 .side-nav.alphabet .drop:before {
+    font-family: mm-icons;
+    content: "\e603";
+}
+
+/*#top_viewed_prod_cat-recos .teaser.enhanced > nav > ul > li > a:before {
+	font-family:'mm-icons', MM-iconfont;
+	content:'\276f';
+}
+#top_viewed_prod_cat-recos .teaser.enhanced > nav > ul > li > a.active:before,
+#top_viewed_prod_cat-recos .teaser.enhanced > nav > ul > li > a.active:hover:before {
+	font-family:'mm-icons', MM-iconfont;
+	content:'\76';
+}*/

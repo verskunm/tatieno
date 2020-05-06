@@ -1,0 +1,93 @@
+﻿@charset "utf-8";
+/* body text from #3e3e3e to #333 */
+
+/* font-sizes */
+#product-wrapper,
+#colorbox,
+#sidebar-wrapper,
+#product-preview,
+#header .search .options ul li a,
+.cms-products-grid .ct-products-grid {
+	/*font-size:.8125rem;*/
+	font-size:13px;
+}
+
+/* links */
+#product-details .model .group .product-rate > a,
+#product-details .details .more,
+#product-details .options a,
+.products-list > li .product-wrapper .content > a,
+.products-list > li footer ul li a,
+.products-list > li footer ul a,
+.box.infobox ul li a,
+.line-1 > ul > li.footer-stores a,
+#page-footer .line-3 > ul > li a,
+#filters .categories a,
+#termsContainer a,
+#faqContent a,
+#product-preview .base-content .rate .rating + a,
+#header .search .options ul li a,
+.cms-products-grid .ct-products-grid > li .base-info h3 a,
+.brand-categories-box li a,
+.cms-products-grid .ct-products-grid .product-info h1 a,
+.cms-products-grid .ct-products-grid .model .product-rate a,
+.product-short-details .product-info h1 a,
+.product-short-details .model .product-rate a,
+#all-markets-box .inner-wrapper .show-all,
+.inner-wrapper #market-pick .alphabet a,
+#all-markets-box .inner-wrapper .markets li a,
+#all-markets-complementary .all-markets-list li a {
+	color:#444;
+}
+.line-1 > ul > li.footer-stores a:hover {
+	color:#444;
+	text-decoration:none;
+}
+#product-details .model .group .product-rate > a:hover,
+#product-details .details .more:hover,
+#product-details .options a:hover,
+.products-list > li .product-wrapper .content > a:hover,
+.products-list > li footer ul li a:hover,
+.products-list > li footer ul > a:hover,
+.box.infobox ul li a:hover,
+.line-1 > ul > li.footer-stores a:hover,
+#page-footer .line-3 > ul > li a:hover,
+#filters .categories a:hover,
+#termsContainer a:hover,
+#faqContent a:hover,
+#product-preview .base-content .rate .rating + a:hover,
+#header .search .options ul li a:hover,
+.cms-products-grid .ct-products-grid > li .base-info h3 a:hover,
+.brand-categories-box li a:hover,
+.cms-products-grid .ct-products-grid .product-info h1 a:hover,
+.cms-products-grid .ct-products-grid .model .product-rate a:hover,
+.product-short-details .product-info h1 a:hover,
+.product-short-details .model .product-rate a:hover,
+#all-markets-box .inner-wrapper .show-all:hover
+.inner-wrapper #market-pick .alphabet a:hover,
+#all-markets-box .inner-wrapper .markets li a:hover,
+#all-markets-complementary .all-markets-list li a:hover {
+	color:#df0000;
+}
+
+/* pop up */
+#colorbox h1, #colorbox h2, #colorbox h3, #colorbox h4, #colorbox h5, #colorbox h6 {
+	margin-bottom:0;
+}
+
+/* PL */
+#category>hgroup h1 {
+	margin-bottom:0;
+}
+
+/* PDP */
+.premiumopts h2,
+#product-details .header h2,
+#long-description h1,
+#long-description h2,
+#long-description h3,
+#long-description h4,
+#long-description h5,
+#long-description h6 {
+	margin-bottom:0;
+}
